@@ -15,12 +15,31 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  padding-top: 20px;
+}
 .header .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
   font-family: myFirstFont;
   font-size: 32px;
+}
+
+.burger_con {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.burger_con_line {
+  width: 100%;
+  background: black;
+  display: block;
+  height: 4px;
+  margin-top: 9px;
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */
