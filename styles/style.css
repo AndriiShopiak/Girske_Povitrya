@@ -1,0 +1,26 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/fonts/Proxima/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+@font-face {
+  font-family: myFirstSecond;
+  src: url(/fonts/Averta/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}
+body {
+  font-family: myFirstSecond;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-family: myFirstFont;
+  font-size: 32px;
+}/*# sourceMappingURL=style.css.map */
