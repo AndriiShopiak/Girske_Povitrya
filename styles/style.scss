@@ -21,11 +21,11 @@ a {
 }
 .header {
     padding-top: 20px;
-    .wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+}
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header__logo {
     font-family: myFirstFont;

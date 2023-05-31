@@ -25,7 +25,8 @@ a {
 .header {
   padding-top: 20px;
 }
-.header .wrapper {
+
+.header_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
