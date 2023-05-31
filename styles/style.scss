@@ -54,9 +54,18 @@ a {
     border-radius: 50px;
 }
 .header__menu {
-    height: 0px;
+    height: inherit;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__menu__nav__list {
+    
+}
+.nav__list__item {
+    text-decoration: none;
 }
 @media (max-width: 362px) {
     .header__logo {

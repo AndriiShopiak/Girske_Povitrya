@@ -58,9 +58,16 @@ a {
 }
 
 .header__menu {
-  height: 0px;
+  height: inherit;
   width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__list__item {
+  text-decoration: none;
 }
 
 @media (max-width: 362px) {
