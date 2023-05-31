@@ -10,9 +10,16 @@ body {
   font-family: myFirstSecond;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px 20px 0px 20px;
 }
 
 .header {
@@ -27,6 +34,11 @@ body {
 .header__logo {
   font-family: myFirstFont;
   font-size: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.header__logo .header__logo__img {
+  width: 48px;
 }
 
 .burger_con {
@@ -42,4 +54,16 @@ body {
   height: 4px;
   margin-top: 9px;
   border-radius: 50px;
+}
+
+.header__menu {
+  height: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 362px) {
+  .header__logo {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
