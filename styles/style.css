@@ -6,6 +6,11 @@
   font-family: myFirstSecond;
   src: url(/fonts/Averta/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: myFirstSecond;
 }
@@ -66,8 +71,15 @@ a {
   align-items: center;
 }
 
+.header__menu__nav__list {
+  list-style-type: none;
+}
+
 .nav__list__item {
   text-decoration: none;
+}
+.nav__list__item:not(:last-child) {
+  padding-bottom: 20px;
 }
 
 @media (max-width: 362px) {
