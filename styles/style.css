@@ -53,6 +53,11 @@ a {
   width: 50px;
   height: 30px;
   cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.burger_con_active {
+  transform: rotate(90deg);
 }
 
 .burger_con_line {
