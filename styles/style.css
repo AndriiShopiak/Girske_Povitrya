@@ -65,12 +65,17 @@ a {
 }
 
 .header__menu {
-  height: inherit;
+  height: 0;
   width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.6s ease;
+}
+
+.header__menu_active {
+  height: 250px;
 }
 
 .header__menu__nav__list {
