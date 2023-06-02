@@ -25,6 +25,8 @@ a {
 }
 .header {
     padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
 }
 .header_flex {
     display: flex;
@@ -71,7 +73,18 @@ a {
 .nav__list__item {
     text-decoration: none;
     &:not(:last-child) {
-        padding-bottom: 20px;
+        padding-bottom: 30px;
+    }
+    a::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 0px;
+        background: black;
+        transition: all .6s ease;
+    }
+    a:hover::after {
+        width: 100%;
     }
 }
 @media (max-width: 362px) {
