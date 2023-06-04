@@ -143,4 +143,8 @@ a {
   padding: 15px 40px 15px 40px;
   border: none;
   cursor: pointer;
+  transition: all 0.8s ease;
+}
+.left__btn:hover {
+  background: rgb(84, 109, 84);
 }/*# sourceMappingURL=style.css.map */

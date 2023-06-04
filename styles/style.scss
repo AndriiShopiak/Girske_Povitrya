@@ -134,6 +134,10 @@ a {
     padding: 15px 40px 15px 40px;
     border: none;
     cursor: pointer;
+    transition: all .8s ease;
+    &:hover {
+        background: rgb(84, 109, 84);
+    }
 }
 .welcome_con__rigth {
 }
