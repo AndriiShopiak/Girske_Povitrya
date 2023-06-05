@@ -4,7 +4,10 @@ let burgerCon = document.querySelector(".burger_con");
 let welcomeBlock = document.querySelector(".welcome");
 
 window.addEventListener("load", () => {
-    welcomeBlock.classList.add("welcome__active");
+    function animated () {
+        welcomeBlock.classList.add("welcome__active");
+    }
+    setTimeout(animated, 1000);
 });
 
 burger.addEventListener("click", () => {
