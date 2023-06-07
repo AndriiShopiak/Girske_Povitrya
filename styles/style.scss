@@ -26,6 +26,10 @@ a {
 img {
     max-width: 600px;
     border-radius: 20px;
+    transition: all .6s ease;
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 section {
     padding-top: 100px;
@@ -154,6 +158,8 @@ section {
 .right {
 }
 .right__block {
+    overflow: hidden;
+    border-radius: 20px;
 }
 @media (max-width: 1140px) {
     .welcome_con {
