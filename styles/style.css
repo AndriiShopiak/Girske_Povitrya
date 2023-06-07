@@ -27,6 +27,11 @@ a {
   padding: 0px 20px 0px 20px;
 }
 
+img {
+  max-width: 600px;
+  border-radius: 20px;
+}
+
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -113,11 +118,7 @@ a {
 .welcome {
   padding-top: 50px;
   opacity: 0;
-  transition: all 0.8s ease;
-}
-.welcome img {
-  max-width: 600px;
-  border-radius: 20px;
+  transition: all 0.6s ease;
 }
 
 .welcome__active {
