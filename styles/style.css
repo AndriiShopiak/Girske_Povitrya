@@ -199,4 +199,18 @@ section {
   .left__describe {
     font-size: 15px;
   }
+}
+.gallery_slider {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.gallery_slider div {
+  margin-right: 50px;
+}
+.gallery_slider .left {
+  width: 460px;
+}
+.gallery_slider .welcome_con {
+  flex-wrap: nowrap;
 }/*# sourceMappingURL=style.css.map */

@@ -191,3 +191,18 @@ section {
         font-size: 15px;
      }
 }
+// gallery
+.gallery_slider {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    div {
+        margin-right: 50px;
+    }
+    .left {
+        width: 460px;
+    }
+    .welcome_con {
+        flex-wrap: nowrap;
+    }
+}
