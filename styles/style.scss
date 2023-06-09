@@ -192,6 +192,15 @@ section {
      }
 }
 // gallery
+.gallery {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        max-width: 1389px;
+    }
+}
 .gallery_slider {
     display: flex;
     justify-content: space-between;
@@ -205,4 +214,8 @@ section {
     .welcome_con {
         flex-wrap: nowrap;
     }
+}
+.gallery__arrow {
+    width: 50px;
+    cursor: pointer;
 }

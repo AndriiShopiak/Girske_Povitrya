@@ -200,6 +200,14 @@ section {
     font-size: 15px;
   }
 }
+.gallery .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  max-width: 1389px;
+}
+
 .gallery_slider {
   display: flex;
   justify-content: space-between;
@@ -213,4 +221,9 @@ section {
 }
 .gallery_slider .welcome_con {
   flex-wrap: nowrap;
+}
+
+.gallery__arrow {
+  width: 50px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
