@@ -38,6 +38,8 @@ section {
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 3px solid black;
+    background: rgb(174,225,238);
+    background: linear-gradient(90deg, rgba(174,225,238,1) 0%, rgba(177,233,148,1) 100%);
 }
 .header_flex {
     display: flex;
