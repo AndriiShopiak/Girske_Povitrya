@@ -87,10 +87,10 @@ let count = 0;
  leftBtn.addEventListener("click", () => {
     if (count > 0) {
         count --;
-        slider_case.style.opacity = 0;
+    }
+    slider_case.style.opacity = 0;
         setTimeout(function () {
             slider_case.innerHTML = sliderBlocks[count];
             slider_case.style.opacity = 1;
         },500)
-    }
  });
