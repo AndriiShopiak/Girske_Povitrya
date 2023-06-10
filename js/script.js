@@ -73,6 +73,24 @@ let leftBtn = document.querySelector("#left__button");
 let rightBtn = document.querySelector("#right__button");
 let slider_case = document.querySelector(".gallery_slider");
 let count = 0;
+ rightBtn.addEventListener("click", () => {
+    if (count <= 1) {
+        count ++;
+        slider_case.style.opacity = 0;
+        setTimeout(function () {
+            slider_case.innerHTML = sliderBlocks[count];
+            slider_case.style.opacity = 1;
+        },500)
+    }
+ });
+
  leftBtn.addEventListener("click", () => {
-    
+    if (count > 0) {
+        count --;
+        slider_case.style.opacity = 0;
+        setTimeout(function () {
+            slider_case.innerHTML = sliderBlocks[count];
+            slider_case.style.opacity = 1;
+        },500)
+    }
  });
