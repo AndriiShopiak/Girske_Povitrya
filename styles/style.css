@@ -140,6 +140,7 @@ section {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 40px;
 }
 
 .left {
@@ -209,21 +210,6 @@ section {
   align-items: center;
   gap: 30px;
   max-width: 1389px;
-}
-
-.gallery_slider {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-}
-.gallery_slider div {
-  margin-right: 50px;
-}
-.gallery_slider .left {
-  width: 460px;
-}
-.gallery_slider .welcome_con {
-  flex-wrap: nowrap;
 }
 
 .gallery__arrow {
