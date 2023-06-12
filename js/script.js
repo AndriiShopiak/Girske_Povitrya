@@ -54,7 +54,7 @@ let sliderBlocks = [`<div class="welcome_con" id="welcome_con">
 </div>`,`<div class="welcome_con" id="welcome_con">
 <div class="welcome_con__rigth right">
     <div class="right__block">
-        <img src="img/gallery/house_one.jpg" alt="House">
+        <img src="img/gallery/house.jpg" alt="House">
     </div>
 </div>
 <div class="welcome_con__left left">
@@ -74,20 +74,23 @@ let rightBtn = document.querySelector("#right__button");
 let slider_case = document.querySelector(".gallery_slider");
 let count = 0;
  rightBtn.addEventListener("click", () => {
-    if (count <= 1) {
-        count ++;
-        slider_case.style.opacity = 0;
+    count ++;
+    if (count > 2){
+        count = 0;
+    }
+    slider_case.style.opacity = 0;
         setTimeout(function () {
             slider_case.innerHTML = sliderBlocks[count];
             slider_case.style.opacity = 1;
         },500)
-    }
  });
+ let isCorect;
 
  leftBtn.addEventListener("click", () => {
-    if (count > 0) {
-        count --;
+    if (count == 0) {
+        count = 3; 
     }
+    count --;
     slider_case.style.opacity = 0;
         setTimeout(function () {
             slider_case.innerHTML = sliderBlocks[count];
