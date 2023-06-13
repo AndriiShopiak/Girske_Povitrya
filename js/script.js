@@ -97,3 +97,18 @@ let count = 0;
             slider_case.style.opacity = 1;
         },500)
  });
+
+ 
+//  AutoPlay for slider
+
+//  setInterval(function () {
+//    count ++;
+//     if (count > 2){
+//         count = 0;
+//     }
+//     slider_case.style.opacity = 0;
+//         setTimeout(function () {
+//             slider_case.innerHTML = sliderBlocks[count];
+//             slider_case.style.opacity = 1;
+//         },500)
+//  },4000);
