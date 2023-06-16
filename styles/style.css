@@ -214,6 +214,12 @@ section {
   max-width: 1389px;
 }
 
+.gallery__title {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
 .gallery__arrow {
   width: 60px;
   cursor: pointer;
@@ -222,4 +228,22 @@ section {
 .gallery_slider {
   transition: opacity 0.5s ease-in-out;
   height: 451px;
+}
+
+.gallery__progress {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.gallery__progress__btn {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.progress_active {
+  background: #000;
 }/*# sourceMappingURL=style.css.map */
