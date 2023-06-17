@@ -82,7 +82,8 @@ let count = 0;
         setTimeout(function () {
             slider_case.innerHTML = sliderBlocks[count];
             slider_case.style.opacity = 1;
-        },500)
+        },500);
+        progress(count);
  });
  let isCorect;
 
@@ -95,7 +96,8 @@ let count = 0;
         setTimeout(function () {
             slider_case.innerHTML = sliderBlocks[count];
             slider_case.style.opacity = 1;
-        },500)
+        },500);
+        progress(count);
  });
 
  
@@ -112,3 +114,13 @@ let count = 0;
 //             slider_case.style.opacity = 1;
 //         },500)
 //  },4000);
+
+// Progress slider 
+let progBtn = document.querySelectorAll(".gallery__progress__btn");
+progBtn[0].classList.add("progress_active");
+function progress (num) {
+    progBtn.forEach ((el) => {
+        el.classList.remove("progress_active");
+    });
+    progBtn[num].classList.add("progress_active");
+}
