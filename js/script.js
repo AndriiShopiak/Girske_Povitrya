@@ -112,7 +112,8 @@ let count = 0;
 //         setTimeout(function () {
 //             slider_case.innerHTML = sliderBlocks[count];
 //             slider_case.style.opacity = 1;
-//         },500)
+//         },500);
+//         progress(count);
 //  },4000);
 
 // Progress slider 
