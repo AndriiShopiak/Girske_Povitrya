@@ -73,17 +73,21 @@ let leftBtn = document.querySelector("#left__button");
 let rightBtn = document.querySelector("#right__button");
 let slider_case = document.querySelector(".gallery_slider");
 let count = 0;
- rightBtn.addEventListener("click", () => {
-    count ++;
-    if (count > 2){
-        count = 0;
-    }
+
+function slideChange () {
     slider_case.style.opacity = 0;
         setTimeout(function () {
             slider_case.innerHTML = sliderBlocks[count];
             slider_case.style.opacity = 1;
         },500);
         progress(count);
+}
+ rightBtn.addEventListener("click", () => {
+    count ++;
+    if (count > 2){
+        count = 0;
+    }
+    slideChange();
  });
  let isCorect;
 
@@ -92,12 +96,7 @@ let count = 0;
         count = 3; 
     }
     count --;
-    slider_case.style.opacity = 0;
-        setTimeout(function () {
-            slider_case.innerHTML = sliderBlocks[count];
-            slider_case.style.opacity = 1;
-        },500);
-        progress(count);
+    slideChange();
  });
 
  
