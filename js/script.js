@@ -77,8 +77,10 @@ let count = 0;
 function slideChange () {
     slider_case.style.opacity = 0;
         setTimeout(function () {
+            setTimeout(function () {
+                slider_case.style.opacity = 1;
+            },300);
             slider_case.innerHTML = sliderBlocks[count];
-            slider_case.style.opacity = 1;
         },500);
         progress(count);
 }
