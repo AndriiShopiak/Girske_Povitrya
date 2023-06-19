@@ -110,7 +110,7 @@ function slideChange () {
 //         count = 0;
 //     }
 //    slideChange();
-//  },5000);
+//  },4000);
 
 // Progress slider 
 let progBtn = document.querySelectorAll(".gallery__progress__btn");
