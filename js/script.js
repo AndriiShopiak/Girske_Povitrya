@@ -107,13 +107,8 @@ function slideChange () {
 //     if (count > 2){
 //         count = 0;
 //     }
-//     slider_case.style.opacity = 0;
-//         setTimeout(function () {
-//             slider_case.innerHTML = sliderBlocks[count];
-//             slider_case.style.opacity = 1;
-//         },500);
-//         progress(count);
-//  },4000);
+//    slideChange();
+//  },5000);
 
 // Progress slider 
 let progBtn = document.querySelectorAll(".gallery__progress__btn");
