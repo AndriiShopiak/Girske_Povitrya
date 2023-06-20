@@ -57,12 +57,12 @@ let sliderBlocks = [
     `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
         <div class="gallery_con__rigth right">
             <div class="right__block">
-                <img src="img/gallery/house.jpg" alt="House">
+                <img src="img/gallery/Altanka.jpg" alt="House">
             </div>
         </div>
         <div class="gallery_con__left left">
             <h2 class="left__title">
-                Будинок №3
+                Альтанка для великої компанії
             </h2>
             <p class="left__describe">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
