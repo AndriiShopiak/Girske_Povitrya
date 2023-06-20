@@ -17,58 +17,62 @@ burger.addEventListener("click", () => {
 
 // Slider functional
 
-let sliderBlocks = [`<div class="welcome_con" id="welcome_con">
-<div class="welcome_con__rigth right">
-    <div class="right__block">
-        <img src="img/gallery/house_one.jpg" alt="House">
-    </div>
-</div>
-<div class="welcome_con__left left">
-    <h2 class="left__title">
-        Будинок №1
-    </h2>
-    <p class="left__describe">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
-    </p>
-    <button class="left__btn">
-        Більше
-    </button>
-</div>
-</div>`,`<div class="welcome_con" id="welcome_con">
-<div class="welcome_con__rigth right">
-    <div class="right__block">
-        <img src="img/gallery/house_two.jpg" alt="House">
-    </div>
-</div>
-<div class="welcome_con__left left">
-    <h2 class="left__title">
-        Будинок №2
-    </h2>
-    <p class="left__describe">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
-    </p>
-    <button class="left__btn">
-        Більше
-    </button>
-</div>
-</div>`,`<div class="welcome_con" id="welcome_con">
-<div class="welcome_con__rigth right">
-    <div class="right__block">
-        <img src="img/gallery/house.jpg" alt="House">
-    </div>
-</div>
-<div class="welcome_con__left left">
-    <h2 class="left__title">
-        Будинок №3
-    </h2>
-    <p class="left__describe">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
-    </p>
-    <button class="left__btn">
-        Більше
-    </button>
-</div>
-</div>`];
+let sliderBlocks = [
+    `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
+        <div class="gallery_con__rigth right">
+            <div class="right__block">
+                <img src="img/gallery/house_one.jpg" alt="House">
+            </div>
+        </div>
+        <div class="gallery_con__left left">
+            <h2 class="left__title">
+                Будинок №1
+            </h2>
+            <p class="left__describe">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
+            </p>
+            <button class="left__btn">
+                Більше
+            </button>
+        </div>
+    </div>`,
+    `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
+        <div class="gallery_con__rigth right">
+            <div class="right__block">
+                <img src="img/gallery/house_two.jpg" alt="House">
+            </div>
+        </div>
+        <div class="gallery_con__left left">
+            <h2 class="left__title">
+                Будинок №2
+            </h2>
+            <p class="left__describe">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
+            </p>
+            <button class="left__btn">
+                Більше
+            </button>
+        </div>
+    </div>`,
+    `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
+        <div class="gallery_con__rigth right">
+            <div class="right__block">
+                <img src="img/gallery/house.jpg" alt="House">
+            </div>
+        </div>
+        <div class="gallery_con__left left">
+            <h2 class="left__title">
+                Будинок №3
+            </h2>
+            <p class="left__describe">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
+            </p>
+            <button class="left__btn">
+                Більше
+            </button>
+        </div>
+    </div>`
+];
 let leftBtn = document.querySelector("#left__button");
 let rightBtn = document.querySelector("#right__button");
 let slider_case = document.querySelector(".gallery_slider");
