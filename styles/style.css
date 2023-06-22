@@ -265,4 +265,7 @@ section {
   #right__button {
     order: 4;
   }
+  .gallery__arrow {
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
