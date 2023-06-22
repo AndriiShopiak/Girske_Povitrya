@@ -245,3 +245,17 @@ section {
 .progress_active {
     background: #000;
 }
+@media (max-width: 1340px) {
+    .gallery {
+        .wrapper {
+            max-width: 1200px;
+            flex-wrap: wrap;
+        }
+    }
+    #left__button {
+        order: 3;
+    }
+    #right__button {
+        order: 4;
+    }
+}
