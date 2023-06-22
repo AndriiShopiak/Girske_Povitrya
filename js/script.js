@@ -20,7 +20,7 @@ burger.addEventListener("click", () => {
 let sliderBlocks = [
     `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
         <div class="gallery_con__rigth right">
-            <div class="right__block">
+            <div class="right__block gallery_img">
                 <img src="img/gallery/house_one.jpg" alt="House">
             </div>
         </div>
@@ -38,7 +38,7 @@ let sliderBlocks = [
     </div>`,
     `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
         <div class="gallery_con__rigth right">
-            <div class="right__block">
+            <div class="right__block gallery_img">
                 <img src="img/gallery/house_two.jpg" alt="House">
             </div>
         </div>
@@ -56,7 +56,7 @@ let sliderBlocks = [
     </div>`,
     `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
         <div class="gallery_con__rigth right">
-            <div class="right__block">
+            <div class="right__block gallery_img">
                 <img src="img/gallery/Altanka_table.jpg" alt="House">
             </div>
         </div>
