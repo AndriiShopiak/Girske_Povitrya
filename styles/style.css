@@ -273,11 +273,11 @@ section {
 }
 @media (max-width: 580px) {
   .gallery__title {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
-  .left__title {
-    font-size: 25px;
+  .gallery_con__left .left__title {
+    font-size: 20px;
   }
   .left__describe {
     font-size: 14px;
@@ -289,5 +289,14 @@ section {
 @media (max-width: 470px) {
   section {
     padding-top: 50px;
+  }
+  .gallery__title {
+    margin-bottom: 10px;
+  }
+  .gallery_slider__gallery {
+    gap: 30px;
+  }
+  .left__describe {
+    margin: 15px 0px 15px 0px;
   }
 }/*# sourceMappingURL=style.css.map */
