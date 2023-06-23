@@ -168,7 +168,7 @@ section {
     overflow: hidden;
     border-radius: 20px;
 }
-@media (max-width: 1140px) {
+@media (max-width: 1180px) {
     .welcome_con {
         flex-direction: column;
         justify-content: center;
@@ -277,5 +277,10 @@ section {
     }
     .gallery__arrow {
         display: none;
+    }
+}
+@media (max-width: 470px) {
+    section {
+        padding-top: 50px;
     }
 }
