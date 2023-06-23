@@ -207,6 +207,16 @@ section {
         max-width: 1389px;
     }
 }
+.gallery_img {
+    overflow: hidden;
+    border-radius: 20px;
+}
+.gallery_slider__mobile {
+    display: none;
+    .gallery_slider__gallery {
+        padding-bottom: 20px;
+    }
+}
 .gallery__title {
     text-align: center;
     font-size: 45px;
@@ -279,6 +289,9 @@ section {
     }
     .gallery__arrow {
         display: none;
+    }
+    .gallery_slider__mobile {
+        display: block;
     }
 }
 @media (max-width: 470px) {
