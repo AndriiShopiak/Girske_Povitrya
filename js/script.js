@@ -44,7 +44,7 @@ let sliderBlocks = [
         </div>
         <div class="gallery_con__left left">
             <h2 class="left__title">
-                Будинок №2 ( На 10 осіб )
+                Котедж ( На 10 осіб )
             </h2>
             <p class="left__describe">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
