@@ -71,6 +71,24 @@ let sliderBlocks = [
                 Більше
             </button>
         </div>
+    </div>`,
+    `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
+        <div class="gallery_con__rigth right">
+            <div class="right__block gallery_img">
+                <img src="img/gallery/house.jpg" alt="House">
+            </div>
+        </div>
+        <div class="gallery_con__left left">
+            <h2 class="left__title">
+                Сауна на дровах
+            </h2>
+            <p class="left__describe">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
+            </p>
+            <button class="left__btn">
+                Більше
+            </button>
+        </div>
     </div>`
 ];
 let leftBtn = document.querySelector("#left__button");
@@ -90,7 +108,7 @@ function slideChange () {
 }
  rightBtn.addEventListener("click", () => {
     count ++;
-    if (count > 2){
+    if (count > sliderBlocks.length -1){
         count = 0;
     }
     slideChange();
@@ -99,7 +117,7 @@ function slideChange () {
 
  leftBtn.addEventListener("click", () => {
     if (count == 0) {
-        count = 3; 
+        count = sliderBlocks.length; 
     }
     count --;
     slideChange();
