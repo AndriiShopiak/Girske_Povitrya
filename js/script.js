@@ -26,10 +26,10 @@ let sliderBlocks = [
         </div>
         <div class="gallery_con__left left">
             <h2 class="left__title">
-                Будинок №1
+                Будинок №1 ( Тільки другий поверх )
             </h2>
             <p class="left__describe">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
+                Житлові номери на 2 поверсі, господарі живуть на першому поверсі
             </p>
             <button class="left__btn">
                 Більше
@@ -44,10 +44,10 @@ let sliderBlocks = [
         </div>
         <div class="gallery_con__left left">
             <h2 class="left__title">
-                Котедж ( На 10 осіб )
+                Котедж під ключ (10 осіб)
             </h2>
             <p class="left__describe">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam molestias dolores at similique incidunt corrupti perspiciatis quae voluptatem doloremque architecto.
+                Здається повністю, господарі живуть окремо
             </p>
             <button class="left__btn">
                 Більше
