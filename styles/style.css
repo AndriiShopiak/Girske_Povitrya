@@ -329,4 +329,30 @@ iframe {
   font-size: 45px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.places {
+  padding-top: 100px;
+  background: #25291f;
+}
+
+.plase_con__title {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.places_con_photo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.places_con_photo img {
+  max-width: 300px;
+}
+.places_con_photo img:nth-child(2) {
+  max-width: 400px;
 }/*# sourceMappingURL=style.css.map */

@@ -329,3 +329,31 @@ iframe {
 }
 .location_con_info_description {
 }
+
+// Places
+
+.places {
+    padding-top: 100px;
+    background: #25291f;
+}
+.places_con {
+}
+.plase_con__title {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.places_con_photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    img {
+        max-width: 300px;
+        &:nth-child(2) {
+            max-width: 400px;
+        }
+    }
+}
