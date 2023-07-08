@@ -437,4 +437,8 @@ iframe {
 }
 .story_block_content_wrapp img:hover {
   transform: scale(1);
+}
+
+.story_block_content_text {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
