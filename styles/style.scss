@@ -453,6 +453,11 @@ iframe {
 .story_block_content_text {
     text-align: center;
 }
+.profile {
+    animation-duration: 1s;
+    animation-name: story;
+    animation-iteration-count: infinite;
+  }
 @keyframes story {
     0% {
       background: linear-gradient(

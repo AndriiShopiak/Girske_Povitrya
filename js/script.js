@@ -143,3 +143,12 @@ function progress (num) {
     });
     progBtn[num].classList.add("progress_active");
 }
+// Animation for Story
+
+let storyBlock = document.querySelectorAll(".story_block_content_wrapp");
+storyBlock.forEach((e) =>{
+    e.addEventListener('click', () => {
+        e.classList.toggle("profile");
+    });
+});
+console.log(storyBlock);
