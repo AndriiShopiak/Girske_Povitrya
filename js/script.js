@@ -149,6 +149,16 @@ let storyBlock = document.querySelectorAll(".story_block_content_wrapp");
 storyBlock.forEach((e) =>{
     e.addEventListener('click', () => {
         e.classList.toggle("profile");
+        setTimeout (() => {
+            storyDisplay.style.display = "block";
+            e.classList.remove("profile");    
+        },2000)
     });
 });
-console.log(storyBlock);
+// Block from story 
+let closeBtn = document.querySelector(".story__display__close");
+let storyDisplay = document.querySelector(".story__display");
+
+closeBtn.addEventListener ("click", () => {
+    storyDisplay.style.display = "none";
+});

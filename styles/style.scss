@@ -457,7 +457,31 @@ iframe {
     animation-duration: 1s;
     animation-name: story;
     animation-iteration-count: infinite;
-  }
+}
+.story__display__close {
+    text-align: right;
+    margin: 0 20px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.story__display {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(185, 234, 247, 0.6);
+}
+.story__display__content {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20%;
+}
+
 @keyframes story {
     0% {
       background: linear-gradient(
