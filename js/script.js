@@ -1,6 +1,6 @@
 let menuBlock = document.querySelector(".header__menu");
-let burger = document.querySelector(".burger");
-let burgerCon = document.querySelector(".burger_con");
+// let burger = document.querySelector(".burger");
+// let burgerCon = document.querySelector(".burger_con");
 let welcomeBlock = document.querySelector(".welcome");
 
 window.addEventListener("load", () => {
@@ -10,10 +10,10 @@ window.addEventListener("load", () => {
     setTimeout(animated, 1000);
 });
 
-burger.addEventListener("click", () => {
-    menuBlock.classList.toggle("header__menu_active");
-    burgerCon.classList.toggle("burger_con_active");
-});
+// burger.addEventListener("click", () => {
+//     menuBlock.classList.toggle("header__menu_active");
+//     burgerCon.classList.toggle("burger_con_active");
+// });
 
 // Slider functional
 
