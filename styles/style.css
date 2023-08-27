@@ -38,7 +38,7 @@ img:hover {
 }
 
 section {
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .header {
@@ -147,7 +147,7 @@ section {
 }
 
 .left {
-  max-width: 500px;
+  max-width: 507px;
 }
 
 .left__title {
