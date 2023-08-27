@@ -39,7 +39,7 @@ let sliderBlocks = [
     `<div class="gallery_slider__gallery" id="gallery_slider__gallery">
         <div class="gallery_con__rigth right">
             <div class="right__block gallery_img">
-                <img src="img/gallery/house_two.jpg" alt="House">
+                <img src="img/gallery/litnia.jpg" alt="House">
             </div>
         </div>
         <div class="gallery_con__left left">
