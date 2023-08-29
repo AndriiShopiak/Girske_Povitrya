@@ -211,7 +211,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1389px;
 }
 
 .gallery_img {
@@ -239,7 +238,6 @@ section {
 
 .gallery_slider {
   transition: opacity 0.5s ease-in-out;
-  height: 451px;
 }
 
 .gallery_slider__gallery {
@@ -247,6 +245,11 @@ section {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
+  margin-bottom: 100px;
+}
+
+#gallery_slider__gallery:nth-child(2) {
+  flex-direction: row-reverse;
 }
 
 .gallery__progress {

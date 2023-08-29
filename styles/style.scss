@@ -204,7 +204,7 @@ section {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1389px;
+        // max-width: 1389px;
     }
 }
 .gallery_img {
@@ -232,14 +232,18 @@ section {
    -ms-transition: opacity .5s ease-in-out;
    -o-transition: opacity .5s ease-in-out;
    transition: opacity .5s ease-in-out;
-   height: 451px;
 }
 .gallery_slider__gallery {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    margin-bottom: 100px;
 }
+#gallery_slider__gallery:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
 .gallery__progress {
     text-align: center;
     padding-top: 50px;
