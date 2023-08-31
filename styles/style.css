@@ -209,11 +209,6 @@ section {
     font-size: 15px;
   }
 }
-.gallery .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .gallery_img {
   overflow: hidden;
@@ -248,11 +243,13 @@ section {
   align-items: center;
   gap: 50px;
   margin-bottom: 100px;
+  flex-direction: column;
+  text-align: center;
 }
 
-#gallery_slider__gallery:nth-child(2), #gallery_slider__gallery:nth-child(4) {
+/* #gallery_slider__gallery:nth-child(2), #gallery_slider__gallery:nth-child(4) {
   flex-direction: row-reverse;
-}
+} */
 
 .gallery__progress {
   text-align: center;
