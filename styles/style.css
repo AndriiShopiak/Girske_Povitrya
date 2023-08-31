@@ -144,6 +144,8 @@ section {
   align-items: center;
   flex-wrap: wrap;
   gap: 40px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .left {
