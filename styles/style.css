@@ -209,7 +209,6 @@ section {
     font-size: 15px;
   }
 }
-
 .gallery_img {
   overflow: hidden;
   border-radius: 20px;
@@ -235,6 +234,7 @@ section {
 
 .gallery_slider {
   transition: opacity 0.5s ease-in-out;
+  text-align: center;
 }
 
 .gallery_slider__gallery {
@@ -244,12 +244,7 @@ section {
   gap: 50px;
   margin-bottom: 100px;
   flex-direction: column;
-  text-align: center;
 }
-
-/* #gallery_slider__gallery:nth-child(2), #gallery_slider__gallery:nth-child(4) {
-  flex-direction: row-reverse;
-} */
 
 .gallery__progress {
   text-align: center;
